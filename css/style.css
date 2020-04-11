@@ -84,6 +84,9 @@ p{
 .container .box {   
     display:table;  
     margin-right: 20px;
+    width: auto; 
+    max-width: 100%;
+    height: auto; 
 }  
 
 .container .box .box-row {  
