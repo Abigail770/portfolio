@@ -81,7 +81,7 @@ p{
     font-family: sans-serif;
 }
 
-.container .box {   
+.container-fluid .box {   
     display:table;  
     margin-right: 20px;
     width: auto; 
@@ -90,7 +90,7 @@ p{
     object-fit: contain;
 }  
 
-.container .box .box-row {  
+.container-fluid .box .box-row {  
     display:table-row; 
     width: auto; 
     max-width: 100%;
@@ -98,7 +98,7 @@ p{
     object-fit: contain;
 }  
 
-.container .box .box-cell {  
+.container-fluid .box .box-cell {  
     display:table-cell;  
     width:33%;  
     padding:10px;  
@@ -108,15 +108,15 @@ p{
     object-fit: contain;
 }  
 
-.container .box .box-cell.software{
+.container-fluid .box .box-cell.software{
     text-align: justify;
 }
 
-.container .box .box-cell.languages{
+.container-fluid .box .box-cell.languages{
     text-align: justify;
 }
 
-.container .box .box-cell.libraries{
+.container-fluid .box .box-cell.libraries{
     text-align: justify;
 }
 
