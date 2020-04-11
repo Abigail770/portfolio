@@ -87,6 +87,7 @@ p{
     width: auto; 
     max-width: 100%;
     height: auto; 
+    object-fit: contain;
 }  
 
 .container .box .box-row {  
@@ -94,6 +95,7 @@ p{
     width: auto; 
     max-width: 100%;
     height: auto;  
+    object-fit: contain;
 }  
 
 .container .box .box-cell {  
@@ -103,6 +105,7 @@ p{
     width: auto; 
     max-width: 100%;
     height: auto; 
+    object-fit: contain;
 }  
 
 .container .box .box-cell.software{
