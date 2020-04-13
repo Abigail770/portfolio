@@ -58,6 +58,13 @@ body {
     font-size: 12pt;
 }
 
+#box-titles{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18pt;
+}
+
 h1{
     margin-left:auto;
     margin-right:auto;
@@ -81,49 +88,31 @@ p{
     font-family: sans-serif;
 }
 
-.container-fluid .box {   
-    display:table;  
-    margin-right: 20px;
+ul{
+    padding: 0;
+}
+
+li{
+    display: block;
+    text-align: center;
+}
+
+.box-cell.software{
     width: auto; 
     max-width: 100%;
     height: auto; 
-    object-fit: contain;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-         column-count: 3;
- -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-         column-width: 33%;
-}  
+}
 
-.container-fluid .box .box-row {  
-    display:table-row; 
-    width: auto; 
-    max-width: 100%;
-    height: auto;  
-    object-fit: contain;
-}  
-
-.container-fluid .box .box-cell {  
-    display:table-cell;  
-    width:33%;  
-    padding:10px;  
+.box-cell.languages{
     width: auto; 
     max-width: 100%;
     height: auto; 
-    object-fit: contain;
-}  
-
-.container-fluid .box .box-cell.software{
-    text-align: justify;
 }
 
-.container-fluid .box .box-cell.languages{
-    text-align: justify;
-}
-
-.container-fluid .box .box-cell.libraries{
-    text-align: justify;
+.box-cell.libraries{
+    width: auto; 
+    max-width: 100%;
+    height: auto; 
 }
 
 #pdfLink{
