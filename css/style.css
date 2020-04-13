@@ -59,6 +59,10 @@ body {
 }
 
 #box-titles{
+    width: auto; 
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; 
     padding: 10px;
     margin: 10px;
     text-align: center;
@@ -93,6 +97,7 @@ ul{
     max-width: 100%;
     height: auto; 
     padding: 0;
+    object-fit: contain;
 }
 
 li{
@@ -104,18 +109,21 @@ li{
     width: auto; 
     max-width: 100%;
     height: auto; 
+    object-fit: contain;
 }
 
 .box-cell.languages{
     width: auto; 
     max-width: 100%;
     height: auto; 
+    object-fit: contain;
 }
 
 .box-cell.libraries{
     width: auto; 
     max-width: 100%;
     height: auto; 
+    object-fit: contain;
 }
 
 #pdfLink{
