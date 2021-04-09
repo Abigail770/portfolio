@@ -8,10 +8,11 @@ body {
     text-align: right;
 }
 
-#madison{
-    width: 100%; 
-    height: 100%; 
-    object-fit: contain;
+#portrait{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid #00003f;
 }
 
 #headings h1{
@@ -25,7 +26,14 @@ body {
 
 #headings{
     padding: 10px;
-    color: #1c5c37;
+    color: #00003f;
+}
+
+#index-headings{
+    padding-bottom: 10px;
+    color: white;
+    background-color: #00003f;
+    opacity: 0.8;
 }
 
 #content{
@@ -92,6 +100,11 @@ p{
     font-family: sans-serif;
 }
 
+#intro p{
+    text-align:left;
+    font-size: 18px;
+}
+
 ul{
     width: auto; 
     max-width: 100%;
@@ -131,7 +144,7 @@ li{
     margin-right:auto;
     text-align: center;
     padding: 15px;
-    font-size: 15pt;
+    font-size: 18pt;
 }
 
 #images{
@@ -162,7 +175,7 @@ img{
     display: block;
     padding: 4px;
     background-color: #fff;
-    border: 2px solid #2ca25f;
+    border: 2px solid #00003f;
 }
 
 .thumbnail img{
@@ -178,3 +191,11 @@ img{
 .caption{
     font-size: 30px;
 }
+
+.row{
+    padding: 10px;
+}
+
+/* #intro p img{
+    margin-left: 0px;
+} */
