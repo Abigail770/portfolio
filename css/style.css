@@ -139,6 +139,13 @@ li{
     object-fit: contain;
 }
 
+.box-cell.frameworks{
+    width: auto; 
+    max-width: 100%;
+    height: auto; 
+    object-fit: contain;
+}
+
 #pdfLink{
     margin-left:auto;
     margin-right:auto;
